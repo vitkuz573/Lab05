@@ -337,17 +337,17 @@ namespace Project1 {
 		}
 #pragma endregion
 		private: System::Void solution_button_Click(System::Object^ sender, System::EventArgs^ e) {
-			double intensity = System::Convert::ToDouble(intensity_numericupdown->Text);
-			double average_call_time = System::Convert::ToDouble(average_call_time_numericupdown->Text);
+			double intensity = System::Convert::ToDouble(intensity_numericupdown->Text); /* интенсивность вызовов */
+			double average_call_time = System::Convert::ToDouble(average_call_time_numericupdown->Text); /* средн€€ продолжительность обслуживани€ */
 
-			double service_flow_intensity = 1 / average_call_time;
-			double relative_throughput = service_flow_intensity / (intensity + service_flow_intensity);
-			double absolute_throughput = intensity * relative_throughput;
-			double channel_occupancy_probability = 1 - relative_throughput;
-			double number_of_requests_served = absolute_throughput * 60;
-			double number_of_requests_unserved = intensity * channel_occupancy_probability * 60;
-			double rated_wsc_capacity = 60 / average_call_time;
-			double actual_wsc_capacity =  100 - (number_of_requests_served / rated_wsc_capacity * 100);
+			double service_flow_intensity = 1 / average_call_time; /* интенсивность потока обслуживани€ */
+			double relative_throughput = service_flow_intensity / (intensity + service_flow_intensity); /* относительна€ пропускна€ способность */
+			double absolute_throughput = intensity * relative_throughput; /* абсолютна€ пропускна€ способность */
+			double channel_occupancy_probability = 1 - relative_throughput; /* веро€тность зан€тости канала */
+			double number_of_requests_served = absolute_throughput * 60; /* число обслуженных за€вок */
+			double number_of_requests_unserved = intensity * channel_occupancy_probability * 60; /* число необслуженных за€вок */
+			double rated_wsc_capacity = 60 / average_call_time; /* номинальна€ производительность —ћќ */
+			double actual_wsc_capacity =  100 - (number_of_requests_served / rated_wsc_capacity * 100); /* фактическа€ производительность —ћќ */
 
 			service_flow_intensity_label->Text = "»нтенсивность потока обслуживани€: " + service_flow_intensity + " за€вок в мин.";
 			relative_throughput_label->Text = "ќтносительна€ пропускна€ способность: " + relative_throughput;
