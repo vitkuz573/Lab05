@@ -337,17 +337,17 @@ namespace Project1 {
 		}
 #pragma endregion
 		private: System::Void solution_button_Click(System::Object^ sender, System::EventArgs^ e) {
-			double intensity = System::Convert::ToDouble(intensity_numericupdown->Text); /* интенсивность вызовов */
-			double average_call_time = System::Convert::ToDouble(average_call_time_numericupdown->Text); /* средн€€ продолжительность обслуживани€ */
+			double intensity = System::Convert::ToDouble(intensity_numericupdown->Value); /* интенсивность вызовов */
+			double average_call_time = System::Convert::ToDouble(average_call_time_numericupdown->Value); /* средн€€ продолжительность обслуживани€ */
 
-			double service_flow_intensity = 1 / average_call_time; /* интенсивность потока обслуживани€ */
-			double relative_throughput = service_flow_intensity / (intensity + service_flow_intensity); /* относительна€ пропускна€ способность */
-			double absolute_throughput = intensity * relative_throughput; /* абсолютна€ пропускна€ способность */
-			double channel_occupancy_probability = 1 - relative_throughput; /* веро€тность зан€тости канала */
-			double number_of_requests_served = absolute_throughput * 60; /* число обслуженных за€вок */
-			double number_of_requests_unserved = intensity * channel_occupancy_probability * 60; /* число необслуженных за€вок */
-			double rated_wsc_capacity = 60 / average_call_time; /* номинальна€ производительность —ћќ */
-			double actual_wsc_capacity =  100 - (number_of_requests_served / rated_wsc_capacity * 100); /* фактическа€ производительность —ћќ */
+			double service_flow_intensity = Math::Round(1 / average_call_time, 2); /* интенсивность потока обслуживани€ */
+			double relative_throughput = Math::Round(service_flow_intensity / (intensity + service_flow_intensity), 2); /* относительна€ пропускна€ способность */
+			double absolute_throughput = Math::Round(intensity * relative_throughput, 2); /* абсолютна€ пропускна€ способность */
+			double channel_occupancy_probability = Math::Round(1 - relative_throughput, 2); /* веро€тность зан€тости канала */
+			double number_of_requests_served = Math::Round(absolute_throughput * 60, 2); /* число обслуженных за€вок */
+			double number_of_requests_unserved = Math::Round(intensity * channel_occupancy_probability * 60, 2); /* число необслуженных за€вок */
+			double rated_wsc_capacity = Math::Round(60 / average_call_time, 2); /* номинальна€ производительность —ћќ */
+			double actual_wsc_capacity =  Math::Round(100 - (number_of_requests_served / rated_wsc_capacity * 100), 2); /* фактическа€ производительность —ћќ */
 
 			service_flow_intensity_label->Text = "»нтенсивность потока обслуживани€: " + service_flow_intensity + " за€вок в мин.";
 			relative_throughput_label->Text = "ќтносительна€ пропускна€ способность: " + relative_throughput;

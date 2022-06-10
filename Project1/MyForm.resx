@@ -117,7 +117,93 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;task_tab.Name" xml:space="preserve">
+    <value>task_tab</value>
+  </data>
+  <data name="&gt;&gt;task_tab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;task_tab.Parent" xml:space="preserve">
+    <value>task_control</value>
+  </data>
+  <data name="&gt;&gt;task_tab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;answer_tab.Name" xml:space="preserve">
+    <value>answer_tab</value>
+  </data>
+  <data name="&gt;&gt;answer_tab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;answer_tab.Parent" xml:space="preserve">
+    <value>task_control</value>
+  </data>
+  <data name="&gt;&gt;answer_tab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="task_control.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="task_control.Size" type="System.Drawing.Size, System.Drawing">
+    <value>646, 499</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="task_control.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;task_control.Name" xml:space="preserve">
+    <value>task_control</value>
+  </data>
+  <data name="&gt;&gt;task_control.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;task_control.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;task_control.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;task_picturebox.Name" xml:space="preserve">
+    <value>task_picturebox</value>
+  </data>
+  <data name="&gt;&gt;task_picturebox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;task_picturebox.Parent" xml:space="preserve">
+    <value>task_tab</value>
+  </data>
+  <data name="&gt;&gt;task_picturebox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="task_tab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="task_tab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="task_tab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>638, 473</value>
+  </data>
+  <data name="task_tab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="task_tab.Text" xml:space="preserve">
+    <value>Задача</value>
+  </data>
+  <data name="&gt;&gt;task_tab.Name" xml:space="preserve">
+    <value>task_tab</value>
+  </data>
+  <data name="&gt;&gt;task_tab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;task_tab.Parent" xml:space="preserve">
+    <value>task_control</value>
+  </data>
+  <data name="&gt;&gt;task_tab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="task_picturebox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAkkAAAD4CAYAAAD4iXLNAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -1955,7 +2041,6 @@
   <data name="task_picturebox.Size" type="System.Drawing.Size, System.Drawing">
     <value>581, 252</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="task_picturebox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -1971,33 +2056,80 @@
   <data name="&gt;&gt;task_picturebox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="task_tab.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="&gt;&gt;solution_button.Name" xml:space="preserve">
+    <value>solution_button</value>
+  </data>
+  <data name="&gt;&gt;solution_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;solution_button.Parent" xml:space="preserve">
+    <value>answer_tab</value>
+  </data>
+  <data name="&gt;&gt;solution_button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;solution_groupbox.Name" xml:space="preserve">
+    <value>solution_groupbox</value>
+  </data>
+  <data name="&gt;&gt;solution_groupbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;solution_groupbox.Parent" xml:space="preserve">
+    <value>answer_tab</value>
+  </data>
+  <data name="&gt;&gt;solution_groupbox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;find_groupbox.Name" xml:space="preserve">
+    <value>find_groupbox</value>
+  </data>
+  <data name="&gt;&gt;find_groupbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;find_groupbox.Parent" xml:space="preserve">
+    <value>answer_tab</value>
+  </data>
+  <data name="&gt;&gt;find_groupbox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;data_groupbox.Name" xml:space="preserve">
+    <value>data_groupbox</value>
+  </data>
+  <data name="&gt;&gt;data_groupbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;data_groupbox.Parent" xml:space="preserve">
+    <value>answer_tab</value>
+  </data>
+  <data name="&gt;&gt;data_groupbox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="answer_tab.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="task_tab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="answer_tab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="task_tab.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="answer_tab.Size" type="System.Drawing.Size, System.Drawing">
     <value>638, 473</value>
   </data>
-  <data name="task_tab.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="answer_tab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="task_tab.Text" xml:space="preserve">
-    <value>Задача</value>
+  <data name="answer_tab.Text" xml:space="preserve">
+    <value>Решение</value>
   </data>
-  <data name="&gt;&gt;task_tab.Name" xml:space="preserve">
-    <value>task_tab</value>
+  <data name="&gt;&gt;answer_tab.Name" xml:space="preserve">
+    <value>answer_tab</value>
   </data>
-  <data name="&gt;&gt;task_tab.Type" xml:space="preserve">
+  <data name="&gt;&gt;answer_tab.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;task_tab.Parent" xml:space="preserve">
+  <data name="&gt;&gt;answer_tab.Parent" xml:space="preserve">
     <value>task_control</value>
   </data>
-  <data name="&gt;&gt;task_tab.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;answer_tab.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="solution_button.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2025,6 +2157,126 @@
   </data>
   <data name="&gt;&gt;solution_button.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;actual_wsc_capacity_label.Name" xml:space="preserve">
+    <value>actual_wsc_capacity_label</value>
+  </data>
+  <data name="&gt;&gt;actual_wsc_capacity_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;actual_wsc_capacity_label.Parent" xml:space="preserve">
+    <value>solution_groupbox</value>
+  </data>
+  <data name="&gt;&gt;actual_wsc_capacity_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rated_wsc_capacity_label.Name" xml:space="preserve">
+    <value>rated_wsc_capacity_label</value>
+  </data>
+  <data name="&gt;&gt;rated_wsc_capacity_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rated_wsc_capacity_label.Parent" xml:space="preserve">
+    <value>solution_groupbox</value>
+  </data>
+  <data name="&gt;&gt;rated_wsc_capacity_label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;requests_served_label.Name" xml:space="preserve">
+    <value>requests_served_label</value>
+  </data>
+  <data name="&gt;&gt;requests_served_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;requests_served_label.Parent" xml:space="preserve">
+    <value>solution_groupbox</value>
+  </data>
+  <data name="&gt;&gt;requests_served_label.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;requests_unserved_label.Name" xml:space="preserve">
+    <value>requests_unserved_label</value>
+  </data>
+  <data name="&gt;&gt;requests_unserved_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;requests_unserved_label.Parent" xml:space="preserve">
+    <value>solution_groupbox</value>
+  </data>
+  <data name="&gt;&gt;requests_unserved_label.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;channel_occupancy_probability_label.Name" xml:space="preserve">
+    <value>channel_occupancy_probability_label</value>
+  </data>
+  <data name="&gt;&gt;channel_occupancy_probability_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;channel_occupancy_probability_label.Parent" xml:space="preserve">
+    <value>solution_groupbox</value>
+  </data>
+  <data name="&gt;&gt;channel_occupancy_probability_label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;absolute_throughput_label.Name" xml:space="preserve">
+    <value>absolute_throughput_label</value>
+  </data>
+  <data name="&gt;&gt;absolute_throughput_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;absolute_throughput_label.Parent" xml:space="preserve">
+    <value>solution_groupbox</value>
+  </data>
+  <data name="&gt;&gt;absolute_throughput_label.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;relative_throughput_label.Name" xml:space="preserve">
+    <value>relative_throughput_label</value>
+  </data>
+  <data name="&gt;&gt;relative_throughput_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;relative_throughput_label.Parent" xml:space="preserve">
+    <value>solution_groupbox</value>
+  </data>
+  <data name="&gt;&gt;relative_throughput_label.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;service_flow_intensity_label.Name" xml:space="preserve">
+    <value>service_flow_intensity_label</value>
+  </data>
+  <data name="&gt;&gt;service_flow_intensity_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;service_flow_intensity_label.Parent" xml:space="preserve">
+    <value>solution_groupbox</value>
+  </data>
+  <data name="&gt;&gt;service_flow_intensity_label.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="solution_groupbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 222</value>
+  </data>
+  <data name="solution_groupbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>625, 214</value>
+  </data>
+  <data name="solution_groupbox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="solution_groupbox.Text" xml:space="preserve">
+    <value>Решение:</value>
+  </data>
+  <data name="&gt;&gt;solution_groupbox.Name" xml:space="preserve">
+    <value>solution_groupbox</value>
+  </data>
+  <data name="&gt;&gt;solution_groupbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;solution_groupbox.Parent" xml:space="preserve">
+    <value>answer_tab</value>
+  </data>
+  <data name="&gt;&gt;solution_groupbox.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="actual_wsc_capacity_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2242,29 +2494,89 @@
   <data name="&gt;&gt;service_flow_intensity_label.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="solution_groupbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 222</value>
+  <data name="&gt;&gt;number_of_unserved_requests_label.Name" xml:space="preserve">
+    <value>number_of_unserved_requests_label</value>
   </data>
-  <data name="solution_groupbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>625, 214</value>
+  <data name="&gt;&gt;number_of_unserved_requests_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="solution_groupbox.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;number_of_unserved_requests_label.Parent" xml:space="preserve">
+    <value>find_groupbox</value>
+  </data>
+  <data name="&gt;&gt;number_of_unserved_requests_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;number_of_requests_served_label.Name" xml:space="preserve">
+    <value>number_of_requests_served_label</value>
+  </data>
+  <data name="&gt;&gt;number_of_requests_served_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;number_of_requests_served_label.Parent" xml:space="preserve">
+    <value>find_groupbox</value>
+  </data>
+  <data name="&gt;&gt;number_of_requests_served_label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;failure_probability_label.Name" xml:space="preserve">
+    <value>failure_probability_label</value>
+  </data>
+  <data name="&gt;&gt;failure_probability_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;failure_probability_label.Parent" xml:space="preserve">
+    <value>find_groupbox</value>
+  </data>
+  <data name="&gt;&gt;failure_probability_label.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="solution_groupbox.Text" xml:space="preserve">
-    <value>Решение:</value>
+  <data name="&gt;&gt;ultimate_absolute_throughput.Name" xml:space="preserve">
+    <value>ultimate_absolute_throughput</value>
   </data>
-  <data name="&gt;&gt;solution_groupbox.Name" xml:space="preserve">
-    <value>solution_groupbox</value>
+  <data name="&gt;&gt;ultimate_absolute_throughput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;solution_groupbox.Type" xml:space="preserve">
+  <data name="&gt;&gt;ultimate_absolute_throughput.Parent" xml:space="preserve">
+    <value>find_groupbox</value>
+  </data>
+  <data name="&gt;&gt;ultimate_absolute_throughput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ultimate_relative_throughput_label.Name" xml:space="preserve">
+    <value>ultimate_relative_throughput_label</value>
+  </data>
+  <data name="&gt;&gt;ultimate_relative_throughput_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ultimate_relative_throughput_label.Parent" xml:space="preserve">
+    <value>find_groupbox</value>
+  </data>
+  <data name="&gt;&gt;ultimate_relative_throughput_label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="find_groupbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 82</value>
+  </data>
+  <data name="find_groupbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>625, 134</value>
+  </data>
+  <data name="find_groupbox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="find_groupbox.Text" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <data name="&gt;&gt;find_groupbox.Name" xml:space="preserve">
+    <value>find_groupbox</value>
+  </data>
+  <data name="&gt;&gt;find_groupbox.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;solution_groupbox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;find_groupbox.Parent" xml:space="preserve">
     <value>answer_tab</value>
   </data>
-  <data name="&gt;&gt;solution_groupbox.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;find_groupbox.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="number_of_unserved_requests_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2401,29 +2713,77 @@
   <data name="&gt;&gt;ultimate_relative_throughput_label.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="find_groupbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 82</value>
+  <data name="&gt;&gt;average_call_time_numericupdown.Name" xml:space="preserve">
+    <value>average_call_time_numericupdown</value>
   </data>
-  <data name="find_groupbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>625, 134</value>
+  <data name="&gt;&gt;average_call_time_numericupdown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="find_groupbox.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;average_call_time_numericupdown.Parent" xml:space="preserve">
+    <value>data_groupbox</value>
+  </data>
+  <data name="&gt;&gt;average_call_time_numericupdown.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;intensity_numericupdown.Name" xml:space="preserve">
+    <value>intensity_numericupdown</value>
+  </data>
+  <data name="&gt;&gt;intensity_numericupdown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;intensity_numericupdown.Parent" xml:space="preserve">
+    <value>data_groupbox</value>
+  </data>
+  <data name="&gt;&gt;intensity_numericupdown.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="find_groupbox.Text" xml:space="preserve">
-    <value>Найти</value>
+  <data name="&gt;&gt;average_call_time_label.Name" xml:space="preserve">
+    <value>average_call_time_label</value>
   </data>
-  <data name="&gt;&gt;find_groupbox.Name" xml:space="preserve">
-    <value>find_groupbox</value>
+  <data name="&gt;&gt;average_call_time_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;find_groupbox.Type" xml:space="preserve">
+  <data name="&gt;&gt;average_call_time_label.Parent" xml:space="preserve">
+    <value>data_groupbox</value>
+  </data>
+  <data name="&gt;&gt;average_call_time_label.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;intensity_label.Name" xml:space="preserve">
+    <value>intensity_label</value>
+  </data>
+  <data name="&gt;&gt;intensity_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;intensity_label.Parent" xml:space="preserve">
+    <value>data_groupbox</value>
+  </data>
+  <data name="&gt;&gt;intensity_label.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="data_groupbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="data_groupbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>626, 69</value>
+  </data>
+  <data name="data_groupbox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="data_groupbox.Text" xml:space="preserve">
+    <value>Дано</value>
+  </data>
+  <data name="&gt;&gt;data_groupbox.Name" xml:space="preserve">
+    <value>data_groupbox</value>
+  </data>
+  <data name="&gt;&gt;data_groupbox.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;find_groupbox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;data_groupbox.Parent" xml:space="preserve">
     <value>answer_tab</value>
   </data>
-  <data name="&gt;&gt;find_groupbox.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;data_groupbox.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="average_call_time_numericupdown.Location" type="System.Drawing.Point, System.Drawing">
     <value>289, 40</value>
@@ -2521,78 +2881,6 @@
   <data name="&gt;&gt;intensity_label.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="data_groupbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
-  </data>
-  <data name="data_groupbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>626, 69</value>
-  </data>
-  <data name="data_groupbox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="data_groupbox.Text" xml:space="preserve">
-    <value>Дано</value>
-  </data>
-  <data name="&gt;&gt;data_groupbox.Name" xml:space="preserve">
-    <value>data_groupbox</value>
-  </data>
-  <data name="&gt;&gt;data_groupbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;data_groupbox.Parent" xml:space="preserve">
-    <value>answer_tab</value>
-  </data>
-  <data name="&gt;&gt;data_groupbox.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="answer_tab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="answer_tab.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="answer_tab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>638, 473</value>
-  </data>
-  <data name="answer_tab.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="answer_tab.Text" xml:space="preserve">
-    <value>Решение</value>
-  </data>
-  <data name="&gt;&gt;answer_tab.Name" xml:space="preserve">
-    <value>answer_tab</value>
-  </data>
-  <data name="&gt;&gt;answer_tab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;answer_tab.Parent" xml:space="preserve">
-    <value>task_control</value>
-  </data>
-  <data name="&gt;&gt;answer_tab.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="task_control.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="task_control.Size" type="System.Drawing.Size, System.Drawing">
-    <value>646, 499</value>
-  </data>
-  <data name="task_control.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;task_control.Name" xml:space="preserve">
-    <value>task_control</value>
-  </data>
-  <data name="&gt;&gt;task_control.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;task_control.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;task_control.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2603,7 +2891,7 @@
     <value>670, 524</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Практическая работа №5 (Вариант #3) - Кузяев Виталий (ИТЗ-0900021) </value>
+    <value>Практическая работа №5 (Вариант #3) - Кузяев Виталий (ИТЗ-0900021у) </value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MyForm</value>
